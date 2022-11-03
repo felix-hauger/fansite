@@ -214,4 +214,21 @@ main article p {
 
 footer {
     font-family: RiftSoft-Regular, sans-serif;
+    height: 120px;
+    position: relative;
+    background-color: #333;
+}
+
+.subfooter {
+    background-color: #111;
+    color: #ddd;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subfooter p {
+    
 }
