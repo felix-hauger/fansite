@@ -29,7 +29,7 @@
 }
 
 body {
-    font-family: WhiteRabbit;
+    font-family: 'WhiteRabbit';
     color: #333;
 }
 
@@ -72,6 +72,10 @@ nav ul a {
 nav ul a:hover {
     background-color: #eee;
     color: #333;
+}
+
+section {
+    padding-bottom: 50px;
 }
 
 #hero {
@@ -151,26 +155,39 @@ main {
     background-color: #333;
     font-family: 'WhiteRabbit', sans-serif;
     padding-top: 30px;
+    color: #ddd;
 }
 
+.fullwidth_wrapper {
+    width: 75%;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 main article {
     background-color: #555;
-    color: #ddd;
     text-align: center;
+    padding: 20px 25px;
 }
 
-main article h2 {
-    padding: 20px;
+h2 {
+    padding: 25px;
+    text-align: center;
 }
 
 main article p {
     line-height: 1.5em;
 }
 
-.fullwidth_wrapper {
-    width: 89%;
-    max-width: 89%;
-    margin-left: auto;
-    margin-right: auto;
+/*     NEWS      */
+
+/* #news h2 {
+    padding: 20px;
+} */
+
+.videos {
+    display: flex;
+    justify-content: space-between;
 }
+
