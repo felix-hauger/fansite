@@ -28,6 +28,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'WhiteRabbit';
     color: #333;
@@ -177,6 +181,7 @@ main {
 
 #intro {
     padding-top: 30px;
+    height: 50vh;
 }
 
 #intro article {
@@ -199,6 +204,7 @@ main article p {
 #news {
     /* background-color: #ab8563; */
     background-color: #555;
+    height: 50vh;
 }
 
 #news h2 {
