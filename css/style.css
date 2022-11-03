@@ -244,6 +244,30 @@ footer {
     background-color: #333;
 }
 
+.footer_box {
+    padding-top: 50px;
+}
+
+#social_media {
+    width: 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+i:before {
+    font-size: 18px;
+    color: #ddd;
+    padding: 10px;
+    border: 2px solid #ddd;
+    /* border-radius: 5px; */
+}
+
+i:hover:before {
+    color: #333;
+    background-color: #ddd;
+}
+
 .subfooter {
     background-color: #111;
     color: #ddd;
