@@ -304,3 +304,13 @@ footer nav ul li a:hover {
     align-self: flex-end;
 }
 
+/* --------- JOB.HTML CSS ---------- */
+
+#job_intro {
+    height: calc(100vh - 223.5px);
+    background-color: red;
+}
+
+#job_intro .fullwidth_wrapper {
+    background-color: #555;
+}
