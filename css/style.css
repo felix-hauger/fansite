@@ -66,9 +66,9 @@ h2 {
 
 /*   NAV   */
 
-nav {
-    /* background-color: aqua; */
-}
+/* nav {
+    background-color: aqua;
+} */
 
 nav ul {
     display: flex;
@@ -88,10 +88,10 @@ header nav ul a:hover {
     color: #333;
 }
 
-section {
-    /* padding-bottom: 50px; */
-    /* padding-top: 50px; */
-}
+/* section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+} */
 
 /*   HERO    */
 
@@ -186,9 +186,9 @@ main {
     color: #ddd;
 }
 
-main#index_main section {
-    /* padding-bottom: 50px; */
-}
+/* main#index_main section {
+    padding-bottom: 50px;
+} */
 
 .fullwidth_wrapper {
     width: 75%;
@@ -304,6 +304,6 @@ footer nav ul li a:hover {
     align-self: flex-end;
 }
 
-.subfooter p {
+/* .subfooter p {
     
-}
+} */
