@@ -309,8 +309,27 @@ footer nav ul li a:hover {
 #job_intro {
     height: calc(100vh - 223.5px);
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #job_intro .fullwidth_wrapper {
     background-color: #555;
+}
+
+
+#job_intro article {
+    padding: 30px 80px;
+    /* background-color: lime; */
+}
+
+#job_intro article h2 {
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+#job_intro article p {
+    font-size: 20px;
+    line-height: 1.7em;
 }
