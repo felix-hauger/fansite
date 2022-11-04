@@ -242,16 +242,19 @@ footer {
     font-family: RiftSoft-Regular, sans-serif;
     height: 120px;
     /* padding-top: 50px; */
-    position: relative;
+    /* position: relative; */
     background-color: #333;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    padding-top: 25px;
 }
 
 .footer_box {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #social_media {
@@ -293,11 +296,12 @@ footer nav ul li a:hover {
 .subfooter {
     background-color: #111;
     color: #ddd;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-self: flex-end;
 }
 
 .subfooter p {
