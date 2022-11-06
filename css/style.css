@@ -42,7 +42,7 @@ body {
 
 header {
     padding-bottom: 12px;
-    background-image: url("../img/videoblocks-sparks-from-the-fire-on-black-background_hyz_g83db_thumbnail-1080_07.png");
+    background-image: url("../media/img/videoblocks-sparks-from-the-fire-on-black-background_hyz_g83db_thumbnail-1080_07.png");
     background-position: bottom;
     font-family: RiftSoft-Regular, sans-serif;
 }
@@ -304,7 +304,7 @@ footer nav ul li a:hover {
     align-self: flex-end;
 }
 
-/* --------- JOB.HTML CSS ---------- */
+/* --------- JOB.HTML ---------- */
 
 #job_intro {
     height: calc(100vh - 223.5px);
@@ -332,4 +332,26 @@ footer nav ul li a:hover {
 #job_intro article p {
     font-size: 20px;
     line-height: 1.7em;
+}
+
+#jobs_list article h3 {
+    font-size: 28px;
+    padding-bottom: 35px;
+}
+
+#jobs_list article .mission_logo {
+    width: 40px;
+    vertical-align: middle;
+}
+
+#jobs_list .job {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#jobs_list .job .text_box {
+    width: 60%;
 }
