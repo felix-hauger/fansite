@@ -143,6 +143,27 @@ input[name="slideradios"] {
     border-color: #fff;
 }
 
+#hero .slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero .slide1 {
+    background-image: url(../media/img/hero_dwarfs.png);
+    background-color: #56b78e;
+}
+
+#hero .slide2 {
+    background-image: url(../media/img/hero_azure.png);
+    background-color: #4245fa;
+}
+
+#hero .slide3 {
+    background-image: url(../media/img/hero_swarm.png);
+    background-color: #b18962;
+}
+
 .slider {
     position: absolute;
     width: 100%;
@@ -157,9 +178,9 @@ input[name="slideradios"] {
     display: flex;
 }
 
-.slide img {
+/* .slide img {
     height: 100%;
-}
+} */
 
 .slide {
     /* position: absolute; */
@@ -312,6 +333,7 @@ footer nav ul li a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #b18962;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
