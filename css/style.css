@@ -308,14 +308,17 @@ footer nav ul li a:hover {
 
 #job_intro {
     height: calc(100vh - 223.5px);
-    background-color: red;
+    background-image: url(../media/img/hero_point_extraction.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #b18962;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #job_intro .fullwidth_wrapper {
-    background-color: #555;
+    background-color: #44444491;
 }
 
 
