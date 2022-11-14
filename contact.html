@@ -23,6 +23,22 @@
     </header>
     <main>
         <h2>Nous contacter</h2>
+        <form action="POST">
+            <label for="name">Nom</label>
+            <input type="text" name="name" id="name">
+            <label for="position">Position Recherchée</label>
+            <select name="jobs" id="position">
+                <option value="">--Choisissez votre futur job !--</option>
+                <option value="driller">Foreur</option>
+                <option value="engie">Ingénieur</option>
+                <option value="gunner">Soldat</option>
+                <option value="scout">Scout</option>
+            </select>
+            <label for="email">Vos coordonnées mail</label>
+            <input type="email" name="email" id="email">
+            <label for="message">Votre motivation</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </form>
     </main>
     <footer>
         <div class="fullwidth_wrapper">
