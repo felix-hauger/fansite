@@ -360,10 +360,45 @@ footer nav ul li a:hover {
 /* -------- CONTACT.HTML --------- */
 
 .form_box {
+    height: 100vh;
     box-shadow: 0 10px 50px -10px #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+}
+
+.form_box h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.form_box p {
+    margin-bottom: 20px;
 }
 
 form#contact_form {
+    appearance: none;
     display: flex;
     flex-direction: column;
+    width: 550px;
+}
+
+form#contact_form label {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+form#contact_form input[type=submit] {
+    margin-top: 30px;
+    background-color: #ab8563;
+    color: #eee;
+    text-shadow: 1px -1px 2px #333;
+    border-style: solid;
+    width: fit-content;
+    padding: 25px 15px;
+    align-self: center;
+    font-family: 'RiftSoft-Regular', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
 }
