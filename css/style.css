@@ -387,6 +387,9 @@ form#contact_form {
 form#contact_form label {
     margin-top: 30px;
     margin-bottom: 10px;
+    font-family: RiftSoft-Regular;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 form#contact_form input[type=submit] {
