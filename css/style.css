@@ -360,14 +360,11 @@ footer nav ul li a:hover {
 /* -------- CONTACT.HTML --------- */
 
 .form_box {
-    /* height: 100vh; */
-    /* box-shadow: 0 10px 50px -10px #333; */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
     padding-bottom: 75px;
-    /* background-color: #444; */
 }
 
 .form_box h2 {
@@ -386,7 +383,6 @@ form#contact_form {
     background-color: #444;
     box-shadow: 0 10px 50px -10px #333;
     padding: 30px 50px;
-
 }
 
 form#contact_form label {
@@ -407,12 +403,12 @@ form#contact_form textarea {
 
 form#contact_form input[type=submit] {
     margin-top: 30px;
+    padding: 25px 15px;
     background-color: #ab8563;
     color: #eee;
     text-shadow: 1px -1px 2px #333;
     border-style: solid;
     width: fit-content;
-    padding: 25px 15px;
     align-self: center;
     font-family: 'RiftSoft-Regular', sans-serif;
     font-size: 25px;
