@@ -355,6 +355,10 @@ footer nav ul li a:hover {
     align-items: center;
 }
 
+#jobs_list .fullwidth_wrapper:nth-child(odd) .job {
+    flex-direction: row-reverse;
+}
+
 #jobs_list .job .text_box {
     width: 60%;
 }
