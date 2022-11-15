@@ -361,11 +361,11 @@ footer nav ul li a:hover {
 
 .form_box {
     height: 100vh;
-    box-shadow: 0 10px 50px -10px #333;
+    /* box-shadow: 0 10px 50px -10px #333; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #444;
+    /* background-color: #444; */
 }
 
 .form_box h2 {
@@ -374,7 +374,7 @@ footer nav ul li a:hover {
 }
 
 .form_box p {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 form#contact_form {
@@ -382,6 +382,10 @@ form#contact_form {
     display: flex;
     flex-direction: column;
     width: 550px;
+    background-color: #444;
+    box-shadow: 0 10px 50px -10px #333;
+    padding: 30px 50px;
+
 }
 
 form#contact_form label {
