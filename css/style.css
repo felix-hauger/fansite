@@ -343,6 +343,10 @@ footer nav ul li a:hover {
     margin-right: 15px;
 }
 
+#jobs_list article .ressource_logo {
+    width: 1em;
+}
+
 #jobs_list .job {
     display: flex;
     padding-top: 50px;
@@ -353,8 +357,12 @@ footer nav ul li a:hover {
 
 #jobs_list .job .text_box {
     width: 60%;
-    font-size: 18px;
-    line-height: 1.5em;
+}
+
+#jobs_list .job .text_box p {
+    font-size: 19px;
+    line-height: 1.9em;
+
 }
 
 /* -------- CONTACT.HTML --------- */
