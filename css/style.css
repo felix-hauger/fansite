@@ -396,6 +396,14 @@ form#contact_form label {
     font-weight: 600;
 }
 
+form#contact_form input[type=text],
+form#contact_form input[type=email],
+form#contact_form select,
+form#contact_form textarea {
+    padding: 15px 10px;
+    font-size: 17px;
+}
+
 form#contact_form input[type=submit] {
     margin-top: 30px;
     background-color: #ab8563;
