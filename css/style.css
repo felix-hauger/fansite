@@ -369,10 +369,16 @@ footer nav ul li a:hover {
 
 .form_box h2 {
     margin-bottom: 40px;
+    font-size: 36px;
 }
 
 .form_box p {
     margin-bottom: 50px;
+    font-size: 19px;
+    width: 700px;
+    align-self: center;
+    line-height: 1.7em;
+    text-align: justify;
 }
 
 form#contact_form {
